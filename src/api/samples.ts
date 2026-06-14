@@ -8,7 +8,7 @@ import type {
 } from "../types";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/api/samples",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3001/api/samples",
 });
 
 export const fetchFromPool = async (): Promise<TrackDetailResponse> => {

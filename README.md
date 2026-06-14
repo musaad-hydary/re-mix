@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# Re//Mix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Re//Mix is a music discovery app that surfaces sample relationships between songs. Click "Inspire Me" to see a track and the original recording it sampled, paired with album art and quick links to listen, read lyrics, or learn more about the connection.
 
-Currently, two official plugins are available:
+Live site: https://re-mix-nine.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How it works
 
-## React Compiler
+The app is split into a React frontend and an Express backend.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The frontend (Vite, React, TypeScript, Tailwind) renders a split disc graphic showing the "original" track on one half and the "flip" (the track that sampled it) on the other. Album art is pulled from the iTunes Search API and rendered with a halftone overlay for a printed, retro feel.
 
-## Expanding the ESLint configuration
+The backend (Express) serves a curated pool of verified sample pairs from a local JSON file (pool-cache.json), so the core "Inspire Me" feature works reliably without depending on external rate limits. It also proxies a few endpoints to the WhoSampled API (via Parse) for search and track lookups, and to the iTunes Search API for artwork, with response caching to reduce repeat calls.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Why a curated pool?
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Sample data APIs are rate limited and not built for high traffic. Rather than have the core experience depend on a third party API being available at the moment a visitor loads the page, the app ships with a pre-built dataset of well documented sample relationships. This keeps the main interaction instant and reliable, while still allowing live lookups for anything not already in the pool.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Frontend: React, TypeScript, Vite, Tailwind CSS, Zustand
+Backend: Express, Node, TypeScript
+Data sources: WhoSampled API (via Parse), iTunes Search API
+Hosting: Vercel (frontend), Render (backend)
+
+## Running locally
+
+Backend
+
+```
+cd server
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Frontend
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```
+npm install
+npm run dev
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Set VITE_API_URL in a .env.local file to point at your local backend, for example:
+
+```
+VITE_API_URL=http://localhost:3001/api/samples
 ```
