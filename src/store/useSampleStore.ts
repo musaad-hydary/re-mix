@@ -149,7 +149,7 @@ export const useSampleStore = create<SampleStore>((set, get) => ({
       fetchArtworkFor(track, set);
     } catch {
       set({
-        error: "Could not load a sample right now, try again",
+        error: "Could not load a sample right now, try again later",
         isLoading: false,
       });
     }

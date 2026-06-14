@@ -195,13 +195,15 @@ export default function SplitDisc() {
           <circle cx="130" cy="130" r="6" style={{ fill: "var(--fg)" }} />
         </svg>
 
-        <div
-          className="absolute -bottom-7 left-0 w-full flex justify-between px-1 text-[10px] tracking-[0.3em] font-bold whitespace-nowrap"
-          style={{ color: "var(--fg)" }}
-        >
-          <span>ORIGINAL</span>
-          <span>FLIP</span>
-        </div>
+        {!isLoading && current && (
+          <div
+            className="absolute -bottom-7 left-0 w-full flex justify-between px-1 text-[10px] tracking-[0.3em] font-bold whitespace-nowrap"
+            style={{ color: "var(--fg)" }}
+          >
+            <span>ORIGINAL</span>
+            <span>FLIP</span>
+          </div>
+        )}
       </div>
 
       {current && (
