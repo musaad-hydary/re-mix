@@ -58,7 +58,7 @@ function App() {
             className="text-[10px] tracking-[0.25em] mt-3 normal-case text-center"
             style={{ opacity: 0.55 }}
           >
-            ★ Most popular sample today
+            Most popular sample today
           </p>
         )}
 
