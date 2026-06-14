@@ -14,7 +14,7 @@
   --card-dark: #1a2550;
   --card-light-fg: #1a2550;
   --card-dark-fg: #e8e6df;
-  --dot: #1a2550;
+  --dot: rgba(26, 37, 80, 0.4);
 }
 
 [data-theme="dark"] {
@@ -24,7 +24,7 @@
   --card-dark: #e4e4e6;
   --card-light-fg: #e4e4e6;
   --card-dark-fg: #1a2550;
-  --dot: #e4e4e6;
+  --dot: rgba(228, 228, 230, 0.28);
 }
 
 body {
