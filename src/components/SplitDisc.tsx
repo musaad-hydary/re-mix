@@ -199,7 +199,7 @@ export default function SplitDisc() {
           className="absolute -bottom-7 left-0 w-full flex justify-between px-1 text-[10px] tracking-[0.3em] font-bold whitespace-nowrap"
           style={{ color: "var(--fg)" }}
         >
-          <span>ORIGIN</span>
+          <span>ORIGINAL</span>
           <span>FLIP</span>
         </div>
       </div>
