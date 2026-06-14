@@ -75,7 +75,7 @@ export default function TrackCards() {
                   color: "var(--card-light-fg)",
                 }}
               >
-                ▶ Watch
+                WATCH
               </a>
               <a
                 href={geniusUrl(original.artist, original.name)}
@@ -87,7 +87,7 @@ export default function TrackCards() {
                   color: "var(--card-light-fg)",
                 }}
               >
-                Lyrics // Genius
+                GENIUS LYRICS
               </a>
               <a
                 href={breakdownUrl(
@@ -104,7 +104,7 @@ export default function TrackCards() {
                   color: "var(--card-light-fg)",
                 }}
               >
-                Read More
+                READ MORE
               </a>
             </div>
           </>
@@ -161,7 +161,7 @@ export default function TrackCards() {
               color: "var(--card-dark-fg)",
             }}
           >
-            ▶ Watch
+            WATCH
           </a>
           <a
             href={geniusUrl(current.artist, current.title)}
@@ -173,7 +173,7 @@ export default function TrackCards() {
               color: "var(--card-dark-fg)",
             }}
           >
-            Lyrics // Genius
+            GENIUS LYRICS
           </a>
           {original && (
             <a
@@ -191,7 +191,7 @@ export default function TrackCards() {
                 color: "var(--card-dark-fg)",
               }}
             >
-              Read More
+              READ MORE
             </a>
           )}
         </div>

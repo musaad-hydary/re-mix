@@ -20,7 +20,7 @@ export default function HistoryTrail() {
         className="text-[9px] tracking-[0.3em] mb-2 normal-case"
         style={{ color: "var(--fg)", opacity: 0.45 }}
       >
-        Recently Viewed
+        RECENTLY VIEWED
       </p>
       <div className="flex flex-col gap-1">
         {recent.slice(0, 4).map((entry, i) => (

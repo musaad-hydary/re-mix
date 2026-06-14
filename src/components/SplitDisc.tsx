@@ -205,7 +205,7 @@ export default function SplitDisc() {
       </div>
 
       {current && (
-        <div className="mt-7 text-center">
+        <div className="mt-10 text-center">
           <p
             className="font-display text-[22px]"
             style={{ color: "var(--fg)" }}

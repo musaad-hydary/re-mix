@@ -33,12 +33,6 @@ export default function SurpriseButton() {
       >
         {isLoading ? "Loading..." : "Inspire Me"}
       </button>
-      <p
-        className="text-[9px] mt-2 tracking-[0.2em] normal-case"
-        style={{ color: "var(--fg)", opacity: 0.4 }}
-      >
-        press space to inspire
-      </p>
     </div>
   );
 }
