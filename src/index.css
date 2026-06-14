@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PP Mondwest";
+  src: url("/fonts/ppmondwest-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --bg: #e4e4e6;
+  --fg: #1a2550;
+  --card-light: #f4f2ec;
+  --card-dark: #1a2550;
+  --card-light-fg: #1a2550;
+  --card-dark-fg: #e8e6df;
+  --dot: #1a2550;
+}
+
+[data-theme="dark"] {
+  --bg: #0d1024;
+  --fg: #e4e4e6;
+  --card-light: #1a2550;
+  --card-dark: #e4e4e6;
+  --card-light-fg: #e4e4e6;
+  --card-dark-fg: #1a2550;
+  --dot: #e4e4e6;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.font-display {
+  font-family: "PP Mondwest", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.disc-spinning {
+  animation: discSpin 1.2s linear infinite;
+}
+
+@keyframes discSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.disc-hover {
+  transition: transform 0.3s ease;
+}
+
+.disc-hover:hover {
+  transform: rotate(8deg) scale(1.02);
+}
+
+.disc-reveal {
+  animation: discReveal 0.4s ease-out;
+}
+
+@keyframes discReveal {
+  from {
+    transform: scale(0.85) rotate(-4deg);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes soundBar {
+  from {
+    transform: scaleY(0.3);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.halftone-hover {
+  position: relative;
+  z-index: 0;
+  transition:
+    transform 0.15s ease,
+    filter 0.2s ease;
+}
+
+.halftone-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, var(--fg) 1px, transparent 1px);
+  background-size: 5px 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+[data-theme="dark"] .halftone-hover::after {
+  background-image: radial-gradient(
+    circle,
+    var(--card-light-fg) 1px,
+    transparent 1px
+  );
+}
+
+.halftone-hover:hover::after {
+  opacity: 0.08;
+}
+
+.halftone-hover:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.15);
+}

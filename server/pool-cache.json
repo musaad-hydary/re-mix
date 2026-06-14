@@ -1,0 +1,722 @@
+[
+  {
+    "data": {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter the Wu-Tang (36 Chambers)",
+      "year": "1993",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "As Long As I've Got You",
+          "artist": "The Charmels",
+          "year": "1967",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/sample/1158/Wu-Tang-Clan-C.R.E.A.M.-The-Charmels-As-Long-as-I%27ve-Got-You/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "My Name Is",
+      "artist": "Eminem",
+      "album": "The Slim Shady LP",
+      "year": "1999",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I Got the...",
+          "artist": "Labi Siffre",
+          "year": "1975",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/sample/31/Eminem-My-Name-Is-Labi-Siffre-I-Got-The.../"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Bound 2",
+      "artist": "Kanye West",
+      "album": "Yeezus",
+      "year": "2013",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Bound",
+          "artist": "Ponderosa Twins Plus One",
+          "year": "1971",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/sample/211335/Kanye-West-Charlie-Wilson-Bound-2-Ponderosa-Twins-Plus-One-Bound/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Me Myself and I",
+      "artist": "De La Soul",
+      "album": "3 Feet High and Rising",
+      "year": "1989",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "(Not Just) Knee Deep",
+          "artist": "Funkadelic",
+          "year": "1979",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/sample/415/De-La-Soul-Me-Myself-and-I-Funkadelic-(Not-Just)-Knee-Deep/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "It Ain't Hard to Tell",
+      "artist": "Nas",
+      "album": "Illmatic",
+      "year": "1994",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Human Nature",
+          "artist": "Michael Jackson",
+          "year": "1982",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/sample/1151/Nas-It-Ain%27t-Hard-to-Tell-Michael-Jackson-Human-Nature/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Mind Playing Tricks on Me",
+      "artist": "Geto Boys",
+      "album": "We Can't Be Stopped",
+      "year": "1991",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Hung Up on My Baby",
+          "artist": "Isaac Hayes",
+          "year": "1974",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/sample/1169/Geto-Boys-Mind-Playing-Tricks-on-Me-Isaac-Hayes-Hung-Up-on-My-Baby/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "You Don't Know My Name",
+      "artist": "Alicia Keys",
+      "album": "The Diary of Alicia Keys",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Let Me Prove My Love to You",
+          "artist": "The Main Ingredient",
+          "year": "1973",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/sample/330/Alicia-Keys-You-Don%27t-Know-My-Name-The-Main-Ingredient-Let-Me-Prove-My-Love-to-You/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Through the Wire",
+      "artist": "Kanye West",
+      "album": "The College Dropout",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Through the Fire",
+          "artist": "Chaka Khan",
+          "year": "1984",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Kanye-West/Through-the-Wire/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Otis",
+      "artist": "Jay-Z & Kanye West",
+      "album": "Watch the Throne",
+      "year": "2011",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Try a Little Tenderness",
+          "artist": "Otis Redding",
+          "year": "1966",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Jay-Z-&-Kanye-West/Otis/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Stan",
+      "artist": "Eminem",
+      "album": "The Marshall Mathers LP",
+      "year": "2000",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Thank You",
+          "artist": "Dido",
+          "year": "1998",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Eminem/Stan/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Niggas in Paris",
+      "artist": "Jay-Z & Kanye West",
+      "album": "Watch the Throne",
+      "year": "2011",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Baby I'm-A Want You",
+          "artist": "Bread",
+          "year": "1971",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Jay-Z-&-Kanye-West/Niggas-in-Paris/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Crazy in Love",
+      "artist": "Beyonc\u00e9",
+      "album": "Dangerously in Love",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Are You My Woman? (Tell Me So)",
+          "artist": "The Chi-Lites",
+          "year": "1970",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Beyonc%C3%A9/Crazy-in-Love/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "album": "Late Registration",
+      "year": "2005",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I Got a Woman",
+          "artist": "Ray Charles",
+          "year": "1954",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Kanye-West/Gold-Digger/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Renegade",
+      "artist": "Jay-Z feat. Eminem",
+      "album": "The Blueprint",
+      "year": "2001",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I'm Sorry",
+          "artist": "Eric Clapton",
+          "year": "1977",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/Jay-Z/Renegade/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Izzo (H.O.V.A.)",
+      "artist": "Jay-Z",
+      "album": "The Blueprint",
+      "year": "2001",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I Want You Back",
+          "artist": "The Jackson 5",
+          "year": "1969",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Jay-Z/Izzo-(H.O.V.A.)/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "year": "2007",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Harder, Better, Faster, Stronger",
+          "artist": "Daft Punk",
+          "year": "2001",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Kanye-West/Stronger/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "99 Problems",
+      "artist": "Jay-Z",
+      "album": "The Black Album",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "The Big Beat",
+          "artist": "Billy Squier",
+          "year": "1980",
+          "tag": "Drums",
+          "url": "https://www.whosampled.com/Jay-Z/99-Problems/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Get Ur Freak On",
+      "artist": "Missy Elliott",
+      "album": "Miss E... So Addictive",
+      "year": "2001",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Hum Tum Pyar Mein",
+          "artist": "Lata Mangeshkar",
+          "year": "1978",
+          "tag": "Multiple Elements",
+          "url": "https://www.whosampled.com/Missy-Elliott/Get-Ur-Freak-On/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Stay (I Missed You)",
+      "artist": "Lisa Loeb",
+      "album": "Tales from the Punchbowl",
+      "year": "1994",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Pinball Wizard",
+          "artist": "The Who",
+          "year": "1969",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Lisa-Loeb/Stay-(I-Missed-You)/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Praise You",
+      "artist": "Fatboy Slim",
+      "album": "You've Come a Long Way, Baby",
+      "year": "1998",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Take Yo' Praise",
+          "artist": "Camille Yarbrough",
+          "year": "1975",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Fatboy-Slim/Praise-You/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Around the World",
+      "artist": "Daft Punk",
+      "album": "Homework",
+      "year": "1997",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I Get Lifted",
+          "artist": "Barbara Tucker",
+          "year": "1994",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Daft-Punk/Around-the-World/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "year": "2000",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "More Spell on You",
+          "artist": "Eddie Johns",
+          "year": "1979",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/Daft-Punk/One-More-Time/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Hung Up",
+      "artist": "Madonna",
+      "album": "Confessions on a Dance Floor",
+      "year": "2005",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+          "artist": "ABBA",
+          "year": "1979",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Madonna/Hung-Up/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Show Me Love",
+      "artist": "Robin S",
+      "album": "From Now On",
+      "year": "1992",
+      "connections_summary": [
+        {
+          "section": "Sampled in 50+ songs",
+          "name": "Show Me Love (Remix)",
+          "artist": "Various Artists",
+          "year": "1993",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Robin-S/Show-Me-Love/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "album": "Speakerboxxx/The Love Below",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Foot Stomping - Part 1",
+          "artist": "The Flares",
+          "year": "1961",
+          "tag": "Drums",
+          "url": "https://www.whosampled.com/OutKast/Hey-Ya!/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "B.O.B.",
+      "artist": "OutKast",
+      "album": "Stankonia",
+      "year": "2000",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "untitled gospel sample",
+          "artist": "Mojo Crew",
+          "year": "1996",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/OutKast/B.O.B./"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Pony",
+      "artist": "Ginuwine",
+      "album": "Ginuwine... The Bachelor",
+      "year": "1996",
+      "connections_summary": [
+        {
+          "section": "Sampled in 100+ songs",
+          "name": "Pony (Interpolations)",
+          "artist": "Various Artists",
+          "year": "1996",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/Ginuwine/Pony/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Family Affair",
+      "artist": "Mary J. Blige",
+      "album": "No More Drama",
+      "year": "2001",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Funky Drummer",
+          "artist": "James Brown",
+          "year": "1970",
+          "tag": "Drums",
+          "url": "https://www.whosampled.com/Mary-J.-Blige/Family-Affair/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Rock the Bells",
+      "artist": "LL Cool J",
+      "album": "Radio",
+      "year": "1985",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Funky Drummer",
+          "artist": "James Brown",
+          "year": "1970",
+          "tag": "Drums",
+          "url": "https://www.whosampled.com/LL-Cool-J/Rock-the-Bells/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Fight the Power",
+      "artist": "Public Enemy",
+      "album": "Fear of a Black Planet",
+      "year": "1990",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Funky Drummer",
+          "artist": "James Brown",
+          "year": "1970",
+          "tag": "Drums",
+          "url": "https://www.whosampled.com/Public-Enemy/Fight-the-Power/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Nuthin' But a 'G' Thang",
+      "artist": "Dr. Dre feat. Snoop Dogg",
+      "album": "The Chronic",
+      "year": "1992",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I Want to Make You Love Me",
+          "artist": "Funkadelic",
+          "year": "1969",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Dr.-Dre/Nuthin%27-But-a-%27G%27-Thang/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "California Love",
+      "artist": "2Pac feat. Dr. Dre",
+      "album": "All Eyez on Me",
+      "year": "1995",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "West Coast Poplock",
+          "artist": "Ronnie Hudson & The Street People",
+          "year": "1982",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/2Pac/California-Love/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Sweet Dreams",
+      "artist": "Beyonc\u00e9",
+      "album": "I Am... Sasha Fierce",
+      "year": "2008",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Tetris Theme (Korobeiniki)",
+          "artist": "Traditional",
+          "year": "1989",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Beyonc%C3%A9/Sweet-Dreams/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "album": "In the Zone",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Tere Mere Beech Mein",
+          "artist": "Lata Mangeshkar & S. P. Balasubrahmanyam",
+          "year": "1981",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/Britney-Spears/Toxic/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Ain't No Sunshine (cover study)",
+      "artist": "Lil' Kim",
+      "album": "single",
+      "year": "1997",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Ain't No Sunshine",
+          "artist": "Bill Withers",
+          "year": "1971",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/sample/Ain%27t-No-Sunshine/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Hypnotize",
+      "artist": "The Notorious B.I.G.",
+      "album": "Life After Death",
+      "year": "1997",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Rise",
+          "artist": "Herb Alpert",
+          "year": "1979",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/The-Notorious-B.I.G./Hypnotize/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Mo Money Mo Problems",
+      "artist": "The Notorious B.I.G.",
+      "album": "Life After Death",
+      "year": "1997",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "I'll Be There for You/You're All I Need to Get By",
+          "artist": "Diana Ross",
+          "year": "1981",
+          "tag": "Vocals / Lyrics",
+          "url": "https://www.whosampled.com/The-Notorious-B.I.G./Mo-Money-Mo-Problems/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Juicy",
+      "artist": "The Notorious B.I.G.",
+      "album": "Ready to Die",
+      "year": "1994",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Juicy Fruit",
+          "artist": "Mtume",
+          "year": "1983",
+          "tag": "Hook / Riff",
+          "url": "https://www.whosampled.com/The-Notorious-B.I.G./Juicy/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Big Pimpin'",
+      "artist": "Jay-Z feat. UGK",
+      "album": "Vol. 3... Life and Times of S. Carter",
+      "year": "1999",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "Khosara Khosara",
+          "artist": "Abdel Halim Hafez",
+          "year": "1960",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/Jay-Z/Big-Pimpin%27/"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Encore",
+      "artist": "Jay-Z",
+      "album": "The Black Album",
+      "year": "2003",
+      "connections_summary": [
+        {
+          "section": "Contains samples of 1 song",
+          "name": "A Garota De Ipanema",
+          "artist": "Walter Wanderley",
+          "year": "1966",
+          "tag": "Instrumental",
+          "url": "https://www.whosampled.com/Jay-Z/Encore/"
+        }
+      ]
+    }
+  }
+]
