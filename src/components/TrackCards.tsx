@@ -155,7 +155,7 @@ export default function TrackCards() {
             href={youtubeUrl(current.artist, current.title)}
             target="_blank"
             rel="noopener noreferrer"
-            className="halftone-hover block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
+            className="halftone-hover halftone-hover-light block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
             style={{
               borderColor: "var(--card-dark-fg)",
               color: "var(--card-dark-fg)",
@@ -167,7 +167,7 @@ export default function TrackCards() {
             href={geniusUrl(current.artist, current.title)}
             target="_blank"
             rel="noopener noreferrer"
-            className="halftone-hover block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
+            className="halftone-hover halftone-hover-light block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
             style={{
               borderColor: "var(--card-dark-fg)",
               color: "var(--card-dark-fg)",
@@ -185,7 +185,7 @@ export default function TrackCards() {
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="halftone-hover block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
+              className="halftone-hover halftone-hover-light block text-center text-[9px] tracking-wide border px-2 py-1.5 normal-case"
               style={{
                 borderColor: "var(--card-dark-fg)",
                 color: "var(--card-dark-fg)",

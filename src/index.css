@@ -37,27 +37,6 @@ body {
   font-family: "PP Mondwest", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.disc-spinning {
-  animation: discSpin 1.2s linear infinite;
-}
-
-@keyframes discSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.disc-hover {
-  transition: transform 0.3s ease;
-}
-
-.disc-hover:hover {
-  transform: rotate(8deg) scale(1.02);
-}
-
 .disc-reveal {
   animation: discReveal 0.4s ease-out;
 }
@@ -70,6 +49,19 @@ body {
   to {
     transform: scale(1) rotate(0deg);
     opacity: 1;
+  }
+}
+
+.disc-spinning {
+  animation: discSpin 1.2s linear infinite;
+}
+
+@keyframes discSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -117,4 +109,16 @@ body {
 .halftone-hover:hover {
   transform: translateY(-1px);
   filter: brightness(1.15);
+}
+
+.halftone-hover-light::after {
+  background-image: radial-gradient(
+    circle,
+    var(--card-dark-fg) 1px,
+    transparent 1px
+  ) !important;
+}
+
+.halftone-hover-light:hover::after {
+  opacity: 0.15;
 }
